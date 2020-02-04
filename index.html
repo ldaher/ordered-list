@@ -1,0 +1,49 @@
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title>Testing - HTML element to order list</title>
+       <meta name="description" content="">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="css/selectors.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src="lib/jquery-3.4.1.min.js"></script>
+       <script src="js/updownlist.js"></script>
+   </head>
+   <body>
+       <div style="width: 25%;display: table;">
+           <div style="display: table-row;">
+               <div style="display: table-cell;width: 50%;">
+                   <ul id="ul_li_SubCategories" style="width:100px;" class="chargeCapturetable margin0">
+                       <li sequence="1" title="Category 1" class="liEllipsis" value="9">
+                           <a href="#"><span class="viewIcons delFaceName _delete fl"></span>Category 1</a>
+                       </li>
+                       <li sequence="2" title="Category 3" class="liEllipsis selected" value="11">
+                           <a href="#"><span class="viewIcons delFaceName _delete fl"></span>Category 3</a>
+                       </li>
+                       <li sequence="4" title="Category 4" class="liEllipsis" value="12">
+                           <a href="#"><span class="viewIcons delFaceName _delete fl"></span>Category 4</a>
+                       </li>
+                       <li sequence="5" title="Category 6" class="liEllipsis" value="22">
+                           <a href="#"><span class="viewIcons delFaceName _delete fl"></span>Category 6</a>
+                       </li>
+                       <li sequence="6" title="Category 5" class="liEllipsis" value="13">
+                           <a href="#"><span class="viewIcons delFaceName _delete fl"></span>Category 5</a>
+                       </li>
+                       <li sequence="7" title="Category 7" class="liEllipsis" value="55">
+                           <a href="#"><span class="viewIcons delFaceName _delete fl"></span>Category 7</a>
+                       </li>
+                       <li sequence="99999" title="Category 8" class="liEllipsis" value="62">
+                           <a href="#"><span class="viewIcons delFaceName _delete fl"></span>Category 8</a>
+                       </li>
+                   </ul>
+               </div>
+               <div style="display: table-cell; vertical-align: middle;">
+                   <button class="upbutton btn"><i class="fa fa-arrow-up"></i></button><br />
+                   <button class="downbutton btn"><i class="fa fa-arrow-down"></i></button>
+               </div>
+           </div>
+       </div>
+   </body>
+</html>
